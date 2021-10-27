@@ -1,0 +1,6 @@
+@startuml
+Customer -> Fridge: Buys a meal
+Fridge -> BigQuery: Sends information about purchase
+Fridge -> BigQuery: Queries data about all purchases
+Looker -> BigQuery: Queries data about all purchases
+@enduml
