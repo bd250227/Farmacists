@@ -10,3 +10,10 @@ Farmacy Foods is a retailer, specifically a food retailer. The largest provider 
 
 Because the primary focus of this extension on Farmacy Food is consumer engagement, the NCR Customer Data Manager (CDM) service will be utilized heavily. By having users add their information into CDM, their food preferences, address and demographic info can be known.
 
+For a forum, local Facebook groups will be created which will give a sense of community without needing to create a forum service from scratch.
+
+For analytics, the Google Looker platform is leveraged to show data with flexible geographical views.
+
+To interact via messages with an edietiton, the email address from NCR CDM can be used.
+
+Custom software will be created only where it is absolutely needed, with the majority of this solution leveraging existing systems.
