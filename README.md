@@ -17,3 +17,5 @@ For analytics, the Google Looker platform is leveraged to show data with flexibl
 To interact via messages with an edietiton, the email address from NCR CDM can be used. Facebook messaging is also an option.
 
 Custom software and services will be created only where it is absolutely needed, with the majority of this solution leveraging existing systems.
+
+The 'seamless' interaction with the existing system, 'Farmacy Food', is accomplished through the Transaction Document Manager (TDM). By submitting completed transactions to this system, NCR analytics can combine the dimensions and measurements from food family (community) with the existing system (transactions).
