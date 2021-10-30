@@ -1,0 +1,7 @@
+@startuml
+FarmacyFoods -> TDM: Submit transaction
+TDM -> FarmacyFamilyPortal: Announce new transaction (Webhook)
+FarmacyFamilyPortal -> CDM: Check if user has Farmacy Family ID
+FarmacyFamilyPortal <- CDM: No Farmacy Family ID exists
+FarmacyFamilyPortal -> EmailService: Send email advertising Farmacy Family
+@enduml
