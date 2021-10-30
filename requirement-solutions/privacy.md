@@ -22,3 +22,5 @@ When a user views another user's profile, only information marked as publicly av
 Example:
 
 ![profile privacy section](../img/privacy-profile.png)
+
+To implement the user roles that can view user's private data, the NCR Security Service is used. For example, by defining the role of CLINIC_EMPLOYEE, workers at the clinic can see health needs of users without exposing them to the public.
