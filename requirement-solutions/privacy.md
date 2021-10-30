@@ -24,3 +24,5 @@ Example:
 ![profile privacy section](../img/privacy-profile.png)
 
 To implement the user roles that can view user's private data, the NCR Security Service is used. For example, by defining the role of CLINIC_EMPLOYEE, workers at the clinic can see health needs of users without exposing them to the public.
+
+All if the sensitive data will be store in the Firestore database with access permission limited to the Farm Familty Portal service. When a user authenticates, they will be given access to the more priviledged Firstore collections based on their assigned role(s) from the Security Service.
