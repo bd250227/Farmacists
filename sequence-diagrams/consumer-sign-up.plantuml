@@ -1,6 +1,7 @@
 @startuml
-Shopper -> FarmacyFamilyWebsite: Selects 'Create Account'
-Shopper -> FarmacyFamilyWebsite: Enters account information with Fridge ID
-Shopper -> FarmacyFamilyWebsite: Select sharing options
-FarmacyFamilyWebsite -> CDM: Creates customer profile
+Shopper -> FarmacyFamilyPortal: Selects 'Create Account'
+Shopper -> FarmacyFamilyPortal: Enters account information with Fridge ID
+Shopper -> FarmacyFamilyPortal: Select sharing options
+FarmacyFamilyPortal -> CDM: Creates customer profile
+FarmacyFamilyPortal -> Firestore: Create supplemental user data
 @enduml
