@@ -1,6 +1,8 @@
 @startuml
 Customer -> Fridge: Buys a meal
-Fridge -> BigQuery: Sends information about purchase
-Fridge -> BigQuery: Queries data about all purchases
-Looker -> BigQuery: Queries data about all purchases
+Fridge -> FarmacyFoods: Request a meal
+FarmacyFoods -> TDM: Submit transaction
+TDM -> DataProcesser: Submit transaction data
+DataProcesser -> DataLake: Store tranaction data
+Looker -> DataLake: Queries data about purchases with respect to geography
 @enduml
