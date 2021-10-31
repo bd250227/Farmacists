@@ -39,7 +39,7 @@ Farmacy Foods)
 
 ## Solution
 
-When transactions are submitted to TDM from Farmacy Foods, that data is crossed with Customer data from CDM and Firestore that shows how purchasing behaviors align. This data is submitted to a data lake for large-scale long term storage. Based on on this data, Looker can generate views that show geographical data between the food items an categories purchased and the locations they were purchased from. Based on the Looker dashboards, better decision can be made for delivering food to fridges.
+When transactions are submitted to the Transaction Document Manager (TDM) from Farmacy Foods, that data is crossed with Customer data from the Customer Data Manager (CDM) and Firestore that shows how purchasing behaviors align. This data is submitted to a data lake for large-scale long term storage. Based on on this data, Looker can generate views that show geographical data between the food items an categories purchased and the locations they were purchased from. Based on the Looker dashboards, better decisions can be made for delivering food to fridges.
 
 ## Requirement
 
@@ -52,4 +52,4 @@ that supports Food-as-medicine
 
 ## Solution
 
-With data collected around similar food purchasing behaviors, groups can be formed from the Looker data. The groups of people can be collected into a social media platform of choice using data from the Customer Data Manager (CDM).
+With data collected around similar food purchasing behaviors, groups can be formed from the Looker data. The groups of people can be collected into a social media platform of choice using information from the Customer Data Manager (CDM).
