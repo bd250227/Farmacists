@@ -1,4 +1,5 @@
 @startuml
+actor Shopper as Shopper
 Shopper -> FarmacyFamilyPortal: Selects 'Create Account'
 Shopper -> FarmacyFamilyPortal: Enters account information with Fridge ID
 Shopper -> FarmacyFamilyPortal: Select sharing options

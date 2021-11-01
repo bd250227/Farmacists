@@ -1,5 +1,6 @@
 @startuml
-Customer -> Fridge: Buys a meal
+actor Shopper as Shopper
+Shopper -> Fridge: Buys a meal
 Fridge -> FarmacyFoods: Request a meal
 FarmacyFoods -> TDM: Submit transaction
 TDM -> DataProcesser: Submit transaction data
